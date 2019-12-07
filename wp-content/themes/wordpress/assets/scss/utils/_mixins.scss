@@ -1,0 +1,114 @@
+@mixin flexbox() {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+}
+
+@mixin flex($values) {
+	-webkit-box-flex: $values;
+	-moz-box-flex:  $values;
+	-webkit-flex:  $values;
+	-ms-flex:  $values;
+	flex:  $values;
+}
+
+@mixin box-shadow($values...) {
+	-webkit-box-shadow: $values;
+	-moz-box-shadow: $values;
+	box-shadow: $values;
+}
+
+@mixin border-radius($values) {
+	-webkit-border-radius: $values;
+	-moz-border-radius: $values;
+	border-radius: $values;
+}
+
+@mixin box-sizing($values) {
+	-webkit-box-sizing: $values;
+	-moz-box-sizing: $values;
+	box-sizing: $values;
+}
+
+@mixin filter($filter) {
+	-webkit-filter: $filter;
+	-moz-filter: 	$filter;
+	-ms-filter: 	$filter;
+	-o-filter: 		$filter;
+	filter: 		$filter;
+}
+
+@mixin transition($transition...) {
+	-moz-transition:    $transition;
+	-o-transition:      $transition;
+	-webkit-transition: $transition;
+	transition:         $transition;
+}
+
+@mixin transform($values) {
+	-webkit-box-transform: $values;
+	-moz-box-transform:  $values;
+	-webkit-transform:  $values;
+	-ms-transform:  $values;
+	transform:  $values;
+}
+
+@mixin filter($values) {
+	-webkit-box-filter: $values;
+	-moz-box-filter:  $values;
+	-webkit-filter:  $values;
+	-ms-filter:  $values;
+	filter:  $values;
+}
+
+@mixin transition-property($property) {
+	-moz-transition-property:    $property;
+	-o-transition-property:      $property;
+	-webkit-transition-property: $property;
+	transition-property:         $property;
+}
+@mixin transition-duration($duration) {
+	-moz-transition-property:    $duration;
+	-o-transition-property:      $duration;
+	-webkit-transition-property: $duration;
+	transition-property:         $duration;
+}
+@mixin transition-timing-function($timing) {
+	-moz-transition-timing-function:    $timing;
+	-o-transition-timing-function:      $timing;
+	-webkit-transition-timing-function: $timing;
+	transition-timing-function:         $timing;
+}
+@mixin transition-delay($delay) {
+	-moz-transition-delay:    $delay;
+	-o-transition-delay:      $delay;
+	-webkit-transition-delay: $delay;
+	transition-delay:         $delay;
+}
+
+@mixin backface-visibility($values) {
+	-moz-backface-visibility:    $values;
+	-webkit-backface-visibility: $values;
+	backface-visibility:         $values;
+}
+
+@mixin appearance($values) {
+	-webkit-appearance: $values;
+	-moz-appearance: $values;
+	appearance: $values;
+}
+
+@mixin user-select($values) {
+	-moz-user-select: $values;
+	-khtml-user-select: $values;
+	-webkit-user-select: $values;
+	-o-user-select: $values;
+	user-select: $values;
+}
+
+@function calculateRem($size) {
+  $remSize: $size / 16px;
+  @return #{$remSize}rem;
+}

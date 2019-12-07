@@ -1,0 +1,11 @@
+/**
+ * Theme Name:   Wordpress Theme Framework
+ * Theme URI:    https://br.wordpress.org/
+ * Description:  Tema padrão Wordpress
+ * Author:       Wordpress
+ * Author URI:   https://br.wordpress.org/
+ * Version:      1
+ * Text Domain:  wordpress
+ */
+
+@import 'assets/css/style.css';

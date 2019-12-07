@@ -1,0 +1,25 @@
+@charset "UTF-8";
+body {
+  background-color: #ffffff;
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important; }
+
+pre {
+  display: block;
+  padding: 9.5px;
+  margin: 0 0 10px;
+  font-size: 13px;
+  line-height: 1.428571429;
+  word-break: break-all;
+  word-wrap: break-word;
+  color: #ffffff;
+  background-color: #7259C1;
+  border: 1px solid  #7259C1;
+  border-radius: 4px; }
+
+a, button {
+  cursor: pointer !important;
+  outline: none !important; }

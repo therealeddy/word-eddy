@@ -1,0 +1,60 @@
+@import "utils/mixins"
+@import "utils/variaveis"
+
+body
+	background-color: $white !important
+	position: relative
+
+div#login
+	padding: 0px
+	width: 350px
+	display: block
+	margin: 0 auto
+	padding-top: 100px
+	h1
+		display: table
+		margin: 0 auto
+		a
+			pointer-events: none
+			height: 120px
+			width: 120px
+			background-size: contain
+			margin: 0
+	form#loginform
+		padding: 45px 30px
+		@include box-shadow(0px 0px 0px 1px $primary)
+	p#nav
+		width: 50%
+		float: right
+		margin: 15px 0
+		padding: 0
+		a
+			display: block
+			text-align: right
+	p#backtoblog
+		width: 50%
+		float: left
+		margin: 15px 0
+		padding: 0
+		p
+			a
+				color: $primary
+				&:hover
+					text-decoration: underline
+	
+.developed
+	position: absolute
+	bottom: 0
+	left: 0
+	width: calc(100% - 30px)
+	padding: 7px 15px
+	background-color: $primary
+	p
+		float: right
+		color: white
+		a
+			color: white
+			font-weight: 700
+			text-decoration: none
+			&:hover
+				text-decoration: underline

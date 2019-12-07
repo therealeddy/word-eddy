@@ -1,0 +1,58 @@
+body {
+  background-color: #ffffff !important;
+  position: relative; }
+
+div#login {
+  padding: 0px;
+  width: 350px;
+  display: block;
+  margin: 0 auto;
+  padding-top: 100px; }
+  div#login h1 {
+    display: table;
+    margin: 0 auto; }
+    div#login h1 a {
+      pointer-events: none;
+      height: 120px;
+      width: 120px;
+      background-size: contain;
+      margin: 0; }
+  div#login form#loginform {
+    padding: 45px 30px;
+    -webkit-box-shadow: 0px 0px 0px 1px #7259C1;
+    -moz-box-shadow: 0px 0px 0px 1px #7259C1;
+    box-shadow: 0px 0px 0px 1px #7259C1; }
+  div#login p#nav {
+    width: 50%;
+    float: right;
+    margin: 15px 0;
+    padding: 0; }
+    div#login p#nav a {
+      display: block;
+      text-align: right; }
+  div#login p#backtoblog {
+    width: 50%;
+    float: left;
+    margin: 15px 0;
+    padding: 0; }
+    div#login p#backtoblog p a {
+      color: #7259C1; }
+      div#login p#backtoblog p a:hover {
+        text-decoration: underline; }
+
+.developed {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: calc(100% - 30px);
+  padding: 7px 15px;
+  background-color: #7259C1; }
+  .developed p {
+    float: right;
+    color: white; }
+    .developed p a {
+      color: white;
+      font-weight: 700;
+      text-decoration: none; }
+      .developed p a:hover {
+        text-decoration: underline; }
