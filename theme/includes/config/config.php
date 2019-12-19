@@ -18,6 +18,13 @@ class Config
 			'mobile' => 'Menu Mobile',
 		));
 
+		add_filter("upload_mimes", array($this, 'cc_mime_types'));
+
+	}
+
+	function cc_mime_types($mimes) {
+		$mimes['svg'] = 'image/svg+xml';
+		return $mimes;
 	}
 }
 

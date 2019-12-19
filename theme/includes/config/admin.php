@@ -11,7 +11,7 @@ class Admin
 
 	public function head()
 	{
-		echo '<link rel="stylesheet" type="text/css" href="' . get_stylesheet_directory_uri() . '/assets/css/wp-admin.css' . '">';
+		echo '<link rel="stylesheet" type="text/css" href="' . get_stylesheet_directory_uri() . '/style/css/wp-admin.css' . '">';
 	}
 
 	public static function footer() {
