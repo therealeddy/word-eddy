@@ -17,7 +17,7 @@ class Admin
 	public static function footer() {
 		?>
 			<div class="developed">
-				<p>Desenvolvido por <a href="https://br.wordpress.org/">Wordpress ♥</a></p>
+				<p>Desenvolvido por <a href="https://github.com/therealeddy">Eddy ♥</a></p>
 			</div>
 			<style>
 				.login h1 a {
