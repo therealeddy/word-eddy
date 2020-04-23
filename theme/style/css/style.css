@@ -15,9 +15,9 @@ pre {
   line-height: 1.428571429;
   word-break: break-all;
   word-wrap: break-word;
-  color: #ffffff;
-  background-color: #7259C1;
-  border: 1px solid  #7259C1;
+  color: #000000;
+  background-color: #cccccc;
+  border: 1px solid  #cccccc;
   border-radius: 4px; }
 
 a, button {
