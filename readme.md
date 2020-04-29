@@ -10,6 +10,6 @@
 
 👤 **Eduardo Mauricio**
 
-## Show your support
+👤 **[Eduardo Mauricio](https://github.com/therealeddy)**
 
 Give a ⭐️ if this project helped you!
