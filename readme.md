@@ -8,8 +8,6 @@
 
 ## Author
 
-👤 **Eduardo Mauricio**
-
 👤 **[Eduardo Mauricio](https://github.com/therealeddy)**
 
 Give a ⭐️ if this project helped you!
