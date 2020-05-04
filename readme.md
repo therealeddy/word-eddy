@@ -8,7 +8,7 @@
 
 ## Author
 
-👤 **Eduardo Mauricio**
+👤 **[Eduardo Mauricio](https://github.com/therealeddy)**
 
 ## Show your support
 
