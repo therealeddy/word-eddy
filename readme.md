@@ -1,5 +1,5 @@
 <h2 align="center">
-  <img src="docs/word-eddy.png" height="90" alt="word-eddy" />
+  <img src="docs/logo.png" height="90" alt="word-eddy" />
 </h2>
 
 <br>
