@@ -6,7 +6,7 @@
 
 <div align="center">
 
-[![version](https://img.shields.io/badge/version-1.1.0-blue.svg)](https://github.com/therealeddy/word-eddy/releases)<space><space>
+[![version](https://img.shields.io/badge/version-1.1.1-blue.svg)](https://github.com/therealeddy/word-eddy/releases)<space><space>
 [![documentation](https://img.shields.io/badge/documentation-yes-brightgreen.svg)](#overview)
 
 </div>
@@ -15,7 +15,15 @@
 
 ## Overview
 
-Advanced template for WordPress
+Advanced template for WordPress.
+
+- **[Install Guide](#install-guide)**
+- **[Plugins](#plugins)**
+- **[Author](#author)**
+- **[License](#license)**
+- **[Show your support](#show-your-support)**
+  
+<br><br>
 
 ## Install Guide
 
@@ -26,6 +34,8 @@ Advanced template for WordPress
 
 - The "Advanced Custom Fields Pro" plugin is found at GPLDL, under a free license (https://gpldl.com/repository/premium-wordpress-plugins/);
 - The "Gravity Forms" plugin is found at GPLDL, under a free license (https://gpldl.com/repository/premium-wordpress-plugins/);
+  
+<br><br>
 
 ## Author
 
